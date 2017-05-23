@@ -2,13 +2,18 @@
 <html lang="en">
 
 <head>
-    <title>Nash Fresh Food Caterers</title>
     <meta charset="utf-8">
+    <title>Nash Fresh Food Caterers</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/style3.css" type="text/css" />
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.6.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/tms-0.3.js"></script>
@@ -21,76 +26,126 @@
 <![endif]-->
 </head>
 
-<body id="page1">
-    <div class="body1">
-        <div class="main">
-            <!--header -->
-            <header>
-                <div class="wrapper">
-                    <h1><a href="index.html" id="logo"></a></h1>
-
-                    <nav>
-                        <ul id="menu">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="AboutUs.html">About Us</a></li>
-                            <li><a href="Services.html">Services</a></li>
-                            <li><a href="Menu.html">Menu</a></li>
-                            <li><a href="Events.html">Events</a></li>
-                            <li><a href="ContactUs.html">Contact Us</a></li>
-
-
-                        </ul>
-                    </nav>
-                </div>
-                <div class="slider_bg">
-                    <div class="slider">
-                        <ul class="items">
-                            <li><img src="images/img3.jpg" alt=""></li>
-                            <li><img src="images/img2.jpg" alt=""></li>
-                            <li><img src="images/img1.jpg" alt=""></li>
-                            <li><img src="images/slide1.jpg" alt=""></li>
-                            <li><img src="images/slide2.jpg" alt=""></li>
-                            <li><img src="images/slide3.jpg" alt=""></li>
-                            <li><img src="images/slide4.jpg" alt=""></li>
-
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            <!-- / header -->
-            <!-- content -->
-            <article id="content">
-                <div class="wrapper1">
-                    <h2><font color="#ff7000">Mission and Vision Statement</font></h2>
-                    <p>Nash Fresh Foods Caterers Strives to provide quality food and services to their customers. With its Affordable prices and professional staff Nash Fresh Foods Caterers offers fast and dependable services to its customers.</p>
-                    <div class="wrapper">
-                        <section class="col1"> <span class="dropcap1"><span>01</span></span>
-                            <div class="cols">
-                                <p class="pad_bot1 color1">Looking for quality services, look no more for we at Nash have the solution.</p>
-                                <p class="pad_bot2">Our main aim is to offer best qualities to our clients.</p>
-                                <a href="Services.html" class="link1">Read More</a> </div>
-                        </section>
-                        <section class="col1 pad_left1"> <span class="dropcap1"><span class="color1">02</span></span>
-                            <div class="cols">
-                                <p class="pad_bot1 color1">Trust and reliabilty? Worry no more.</p>
-                                <p class="pad_bot2">We receive orders from our clients and deliver to them within the designated time and venue.</p>
-                                <a href="ContactUs.html" class="link1">Read More</a> </div>
-                        </section>
-                        <section class="col1 pad_left1"> <span class="dropcap1"><span class="color2">03</span></span>
-                            <div class="cols">
-                                <p class="pad_bot1 color1">Event oganisation:</p>
-                                <p class="pad_bot2">Our clients can make appointments for an event organisation which is also a service offered at Nash.</p>
-                                <a href="ContactUs.html" class="link1">Read More</a> </div>
-                        </section>
-                    </div>
-                </div>
-            </article>
+<body>
+    <div class="container-fluid body1">
+        <!--header -->
+        <div class="header">
+            <h1><a href="index.html" id="logo"><img src="images/logo.png"></a></h1>
+            <nav>
+                <ul id="menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/img3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Kogalo's Party</h3>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/img2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Happy</h3>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/img1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Happy</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slide1.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Happy</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slide2.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Happy</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slide3.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Happy</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slide4.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h3>Happy</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--<div class="container "
+        <article id="content">
+            <div class="container wrapper1">
+                <h2><font color="#ff7000">Mission and Vision Statement</font></h2>
+                <p>Nash Fresh Foods Caterers Strives to provide quality food and services to their customers. With its Affordable prices and professional staff Nash Fresh Foods Caterers offers fast and dependable services to its customers.</p>
+                <div class="wrapper3">
+                    <section class="col1"> <span class="dropcap1"><span>01</span></span>
+                        <div class="cols">
+                            <p class="pad_bot1 color1">Looking for quality services, look no more for we at Nash have the solution.</p>
+                            <p class="pad_bot2">Our main aim is to offer best qualities to our clients.</p>
+                            <a href="Services.html" class="link1">Read More</a> </div>
+                    </section>
+                    <section class="col1 pad_left1"> <span class="dropcap1"><span class="color1">02</span></span>
+                        <div class="cols">
+                            <p class="pad_bot1 color1">Trust and reliabilty? Worry no more.</p>
+                            <p class="pad_bot2">We receive orders from our clients and deliver to them within the designated time and venue.</p>
+                            <a href="ContactUs.html" class="link1">Read More</a> </div>
+                    </section>
+                    <section class="col1 pad_left1"> <span class="dropcap1"><span class="color2">03</span></span>
+                        <div class="cols">
+                            <p class="pad_bot1 color1">Event oganisation:</p>
+                            <p class="pad_bot2">Our clients can make appointments for an event organisation which is also a service offered at Nash.</p>
+                            <a href="ContactUs.html" class="link1">Read More</a> </div>
+                    </section>
+                </div>
+            </div>
+        </article>
+    </div>
     </div>
     <div class="body2">
         <div class="main">
             <article id="content2">
-                <div class="wrapper">
+                <div class="container wrapper3">
                     <section class="col2">
                         <h2><section class="rw-wrapper">
                         <h2 class="rw-sentence">
@@ -133,13 +188,13 @@
                     </section>
                 </div>
             </article>
-            <!-- / content -->
+            / content
         </div>
     </div>
     <div class="main">
-        <!-- footer -->
+         footer
         <footer>
-            <div class="wrapper">
+            <div class="container wrapper4">
                 <section class="col2">
                     <div class="wrapper">
                         <section class="col4">
@@ -168,7 +223,7 @@
                     <div id="footer_link">Copyright &copy; <a href="#">Nash Fresh Food Caterers</a> All Rights Reserved<br>
                     </div>
                 </section>
-                <section class="col3 pad_left2">
+            <section class="col3 pad_left2">
                     <h3>Email Us</h3>
                     <form id="ContactForm" action="#">
                         <div>
@@ -191,10 +246,10 @@
                     </form>
                 </section>
             </div>
-            <!-- {%FOOTER_LINK} -->
-        </footer>
-        <!-- / footer -->
-    </div>
+             {%FOOTER_LINK} -->
+    <!--</footer>
+         / footer -->
+    <!--</div> -->
 </body>
 
 </html>
