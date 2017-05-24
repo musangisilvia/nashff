@@ -19,19 +19,18 @@ mark, rp, rt, ruby, summary, time {
     float: right
 }
 
-.header {
-    width: 100%;
-    overflow: hidden
-}
 
-.tp h2 {
+/**/
+
+.tp .header h2 {
+    margin-top: 50px;
     font-size: 100px;
     text-align: center;
     color: white;
     font-family: 'Handlee', cursive;
 }
 
-.tp p {
+.tp .header p {
     text-align: center;
     font-size: 50px;
     font-family: 'Handlee', cursive;
@@ -224,8 +223,9 @@ p {
 }
 
 #menu {
+    margin-top: -60px;
     float: right;
-    padding: 71px 16px 0 0
+    font-family: 'Handlee', cursive;
 }
 
 #menu li {
@@ -236,7 +236,7 @@ p {
 #menu li a {
     display: block;
     font-size: 19px;
-    color: #130c04;
+    color: white;
     text-decoration: none;
     line-height: 42px;
     height: 43px;
@@ -245,18 +245,11 @@ p {
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     position: relative;
-    background: url(../images/spacer.gif) repeat
+    /*background: url(../images/spacer.gif) repeat*/
 }
 
 #menu li a:hover, #menu .active a {
-    background: url(../images/menu_bg.gif) bottom repeat-x #92d30f;
     color: #fff
-}
-
-#menu li a:hover, #menu .active a {
-    background
-    /*\**/
-    : url(../images/menu_bg.gif) top repeat-x #ff4411;
 }
 
 #myCarousel {
