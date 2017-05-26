@@ -37,6 +37,13 @@ mark, rp, rt, ruby, summary, time {
     color: white;
 }
 
+
+/* page 2*/
+
+#page2 {
+    background-color: #ff4500;
+}
+
 .tp1 .header h2 {
     margin-top: 50px;
     font-size: 100px;
@@ -51,6 +58,49 @@ mark, rp, rt, ruby, summary, time {
     font-family: 'Handlee', cursive;
     color: white;
 }
+
+.sample {
+    background-color: white;
+}
+
+.sample h2 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    color: #ff4500;
+}
+
+.sampleFood {
+    font-size: 16pt;
+    font-family: 'Handlee', cursive;
+    color: #62a80a;
+}
+
+.pagetwolink {
+    background-color: white;
+    color: black;
+}
+
+.pagetwolink a {
+    color: black;
+}
+
+.foot {
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.foot h3 {
+    color: black;
+}
+
+.foot #icons ul li a, .foot #why_us ul li a {
+    color: black;
+}
+
+
+/* end of page 2 */
 
 .tp a {
     color: transparent;
@@ -298,17 +348,6 @@ p {
     font-family: 'Handlee', cursive;
 }
 
-.sample {
-    background-color: white;
-}
-
-.sample h2 {
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Handlee', cursive;
-    color: #ff4500;
-}
-
 .dropcap1 {
     float: left;
     background: url(../images/dropcap.png) 0 0 no-repeat;
@@ -493,10 +532,6 @@ pre {
 
 /* footer */
 
-.foot {
-    border-top: 1px solid #1a1a1a;
-}
-
 footer {
     padding: 0 0 40px 23px
 }
@@ -550,10 +585,6 @@ footer a:hover {}
     margin-top: 17px;
     border-top: 1px solid #1a1a1a;
     padding-top: 19px
-}
-
-.pagetwolink a {
-    color: white;
 }
 
 
