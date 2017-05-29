@@ -148,7 +148,11 @@ mark, rp, rt, ruby, summary, time {
 /* page 2*/
 
 #page2 {
-    background-color: #ff4500;
+    background-image: url(../images/tp.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tp1 .header h2 {
