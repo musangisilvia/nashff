@@ -22,6 +22,14 @@ mark, rp, rt, ruby, summary, time {
 
 /**/
 
+#nashOne {
+    background-image: url(../images/tp.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .tp .header h2 {
     margin-top: 50px;
     font-size: 100px;
@@ -37,71 +45,6 @@ mark, rp, rt, ruby, summary, time {
     color: white;
 }
 
-
-/* page 2*/
-
-#page2 {
-    background-color: #ff4500;
-}
-
-.tp1 .header h2 {
-    margin-top: 50px;
-    font-size: 100px;
-    text-align: center;
-    color: white;
-    font-family: 'Handlee', cursive;
-}
-
-.tp1 .header p {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Handlee', cursive;
-    color: white;
-}
-
-.sample {
-    background-color: white;
-}
-
-.sample h2 {
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Handlee', cursive;
-    color: #ff4500;
-}
-
-.sampleFood {
-    font-size: 16pt;
-    font-family: 'Handlee', cursive;
-    color: #62a80a;
-}
-
-.pagetwolink {
-    background-color: white;
-    color: black;
-}
-
-.pagetwolink a {
-    color: black;
-}
-
-.foot {
-    margin-top: 20px;
-    background-color: white;
-    text-align: center;
-}
-
-.foot h3 {
-    color: black;
-}
-
-.foot #icons ul li a, .foot #why_us ul li a {
-    color: black;
-}
-
-
-/* end of page 2 */
-
 .tp a {
     color: transparent;
     text-decoration: none;
@@ -116,9 +59,6 @@ mark, rp, rt, ruby, summary, time {
     margin-bottom: 10px;
     padding: 60px;
     height: 650px;
-    background-image: url(../images/tp.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
@@ -200,6 +140,74 @@ mark, rp, rt, ruby, summary, time {
         transform: translateY(-15px);
     }
 }
+
+
+/* end page 1 */
+
+
+/* page 2*/
+
+#page2 {
+    background-color: #ff4500;
+}
+
+.tp1 .header h2 {
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Handlee', cursive;
+}
+
+.tp1 .header p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+
+.sample {
+    background-color: white;
+}
+
+.sample h2 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    color: #ff4500;
+}
+
+.sampleFood {
+    font-size: 16pt;
+    font-family: 'Handlee', cursive;
+    color: #62a80a;
+}
+
+.pagetwolink {
+    background-color: white;
+    color: black;
+}
+
+.pagetwolink a {
+    color: black;
+}
+
+.foot {
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.foot h3 {
+    color: black;
+}
+
+.foot #icons ul li a, .foot #why_us ul li a {
+    color: black;
+}
+
+
+/* end of page 2 */
 
 
 /* Global properties */
