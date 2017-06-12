@@ -9,18 +9,7 @@ mark, rp, rt, ruby, summary, time {
 }
 
 
-/* Left & Right alignment */
-
-.left {
-    float: left
-}
-
-.right {
-    float: right
-}
-
-
-/**/
+/*Page one*/
 
 #nashOne {
     background-image: url(../images/tp.jpg);
@@ -141,6 +130,126 @@ mark, rp, rt, ruby, summary, time {
     }
 }
 
+#menu {
+    margin-top: -60px;
+    float: right;
+    font-family: 'Handlee', cursive;
+}
+
+#menu li {
+    float: left;
+    padding-left: 1px
+}
+
+#menu li a {
+    display: block;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    line-height: 42px;
+    height: 43px;
+    padding: 0 19px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    position: relative;
+    /*background: url(../images/spacer.gif) repeat*/
+}
+
+#menu li a:hover, #menu .active a {
+    color: #fff
+}
+
+#myCarousel {
+    display: block;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+#myCarousel .carousel-inner .active img #first {
+    opacity: 0.3;
+}
+
+#myCarousel .carousel-inner .active .carousel-caption h1 {
+    font-size: 60pt;
+    padding-bottom: 250px;
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+
+.article {
+    background-color: #ffffff;
+    color: black;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.article h2 {
+    color: #ff4500;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+.foot h3 {
+    font-size: 22pt;
+    font-family: 'Handlee', cursive;
+}
+
+#ContactForm {
+    padding-top: 2px
+}
+
+#ContactForm a {
+    float: right;
+    width: 94px;
+    height: 43px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 42px;
+    text-align: center;
+    background: url(../images/button_bg.gif) top repeat-x #327d05;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    position: relative
+}
+
+#ContactForm a:hover {
+    background: #8dcf0f
+}
+
+#ContactForm label {
+    font-size: 20pt;
+    font-family: 'Handlee', cursive;
+}
+
+#ContactForm input {
+    border: 1px solid #ff4500;
+    border-radius: 8px;
+    padding: 0 5px;
+    color: #6b6051;
+    font-family: 'Handlee', cursive;
+    margin: 0
+}
+
+#ContactForm textarea {
+    border: 1px solid #ff4500;
+    border-radius: 8px;
+    overflow: auto;
+    padding: 0 5px;
+    color: #6b6051;
+    font-family: 'Handlee', cursive;
+    margin: 0
+}
+
+.foot #EmailUs {
+    background-color: #ff4500;
+    color: white;
+    font-size: 18pt;
+}
+
 
 /* end page 1 */
 
@@ -212,6 +321,96 @@ mark, rp, rt, ruby, summary, time {
 
 
 /* end of page 2 */
+
+
+/*Page 3*/
+
+#page3 {
+    background-image: url(../images/tp.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tp1 .header h2 {
+    margin-top: 50px;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Handlee', cursive;
+}
+
+.tp1 .header p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Handlee', cursive;
+    color: white;
+}
+
+.services {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.services h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.services p {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Handlee', cursive;
+    color: black;
+}
+
+.examples {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.examples h2 {
+    font-size: 34px;
+    text-align: center;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.examples h3 {
+    font-size: 28px;
+    text-align: center;
+    padding-left: 3px;
+    margin-top: -10px;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.examples p {
+    font-size: 16px;
+    color: black;
+}
+
+.examples .dropcap {
+    float: left;
+    background-color: black;
+    width: 40px;
+    height: 44px;
+    margin-right: 3px;
+    font-size: 25px;
+    line-height: 2em;
+    text-align: center;
+    color: white;
+    margin-top: 12px;
+}
+
+
+/*End of page 3*/
 
 
 /* Global properties */
@@ -297,67 +496,6 @@ h3 {
 
 p {
     padding-bottom: 22px
-}
-
-#menu {
-    margin-top: -60px;
-    float: right;
-    font-family: 'Handlee', cursive;
-}
-
-#menu li {
-    float: left;
-    padding-left: 1px
-}
-
-#menu li a {
-    display: block;
-    font-size: 19px;
-    color: white;
-    text-decoration: none;
-    line-height: 42px;
-    height: 43px;
-    padding: 0 19px;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    position: relative;
-    /*background: url(../images/spacer.gif) repeat*/
-}
-
-#menu li a:hover, #menu .active a {
-    color: #fff
-}
-
-#myCarousel {
-    display: block;
-    margin: 30px;
-    border-radius: 5px;
-}
-
-#myCarousel .carousel-inner .active img #first {
-    opacity: 0.3;
-}
-
-#myCarousel .carousel-inner .active .carousel-caption h1 {
-    font-size: 60pt;
-    padding-bottom: 250px;
-    font-family: 'Handlee', cursive;
-    color: white;
-}
-
-.article {
-    background-color: #ffffff;
-    color: black;
-    margin-bottom: 20px;
-    padding: 30px;
-}
-
-.article h2 {
-    color: #ff4500;
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Handlee', cursive;
 }
 
 .dropcap1 {
@@ -601,91 +739,6 @@ footer a:hover {}
 
 
 /* forms */
-
-#ContactForm {
-    padding-top: 2px
-}
-
-#ContactForm span {
-    float: left;
-    width: 111px;
-    line-height: 24px
-}
-
-#ContactForm .bg {
-    border: 1px solid #fff;
-    background: url(../images/bg_input.gif) top repeat-x #e7e7e7;
-    position: relative;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    float: left;
-    height: 20px;
-    overflow: hidden
-}
-
-#ContactForm .bg2 {
-    border: 1px solid #fff;
-    background: url(../images/bg_textarea.gif) top repeat-x #e7e7e7;
-    position: relative;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    float: left;
-    height: 98px;
-    overflow: hidden
-}
-
-#ContactForm .wrapper {
-    min-height: 27px
-}
-
-#ContactForm .textarea_box {
-    height: 105px;
-    width: 100%;
-    overflow: hidden
-}
-
-#ContactForm a {
-    float: right;
-    width: 94px;
-    height: 43px;
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    line-height: 42px;
-    text-align: center;
-    background: url(../images/button_bg.gif) top repeat-x #327d05;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    position: relative
-}
-
-#ContactForm a:hover {
-    background: #8dcf0f
-}
-
-#ContactForm .input {
-    width: 307px;
-    height: 18px;
-    background: none;
-    padding: 0 5px;
-    color: #6b6051;
-    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
-    margin: 0
-}
-
-#ContactForm textarea {
-    overflow: auto;
-    width: 307px;
-    height: 98px;
-    background: none;
-    padding: 0 5px;
-    color: #6b6051;
-    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
-    margin: 0
-}
 
 #terms {
     color: #ff7000;
