@@ -409,6 +409,62 @@ mark, rp, rt, ruby, summary, time {
     margin-top: 12px;
 }
 
+.quality {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.quality h2 {
+    font-size: 34px;
+    text-align: center;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.quality h3 {
+    font-size: 28px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 5px;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.quality p {
+    font-size: 16px;
+    color: black;
+}
+
+.fa-hand-o-right {
+    color: #ff4500;
+    padding-top: 40px;
+}
+
+.termncondition {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.termncondition h2 {
+    font-size: 34px;
+    text-align: center;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.termncondition p {
+    font-size: 16px;
+    color: black;
+}
+
+.fa-check {
+    color: #ff4500;
+}
+
 
 /*End of page 3*/
 
@@ -595,40 +651,6 @@ p {
 .list1 a:hover {
     color: #fff
 }
-
-.quality {
-    width: 100%;
-    overflow: hidden
-}
-
-.quality .cols {
-    width: 290px
-}
-
-.quality .pad_left1 {
-    padding-left: 30px
-}
-
-.quality .arrow {
-    background: url(../images/arrow.png) right 4px no-repeat
-}
-
-.quality .dropcap1 {
-    height: 50px;
-    background: url(../images/dropcap2.png) 0 0 no-repeat;
-    margin-top: 1px
-}
-
-.quality h3 {
-    padding: 0 0 17px 0
-}
-
-.quality h3 span {
-    display: block;
-    margin-top: -6px
-}
-
-.price {}
 
 .price li {
     width: 100%;
