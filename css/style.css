@@ -539,6 +539,77 @@ mark, rp, rt, ruby, summary, time {
 /*End of page 4*/
 
 
+/*Page 5*/
+
+#page5 {
+    background-image: url(../images/tp.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.events h2 {
+    font-size: 34px;
+    text-align: center;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.events h3 {
+    font-size: 28px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 5px;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.events p {
+    font-size: 16px;
+    color: black;
+}
+
+.pictures {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.pictures h2 {
+    font-size: 34px;
+    text-align: center;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.pictures h3 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    padding: 3px;
+    margin-top: 5px;
+    color: #ff4500;
+    font-family: 'Handlee', cursive;
+}
+
+.pictures p {
+    font-size: 16px;
+    color: black;
+}
+
+
+/* End of Page 5*/
+
+
 /* Global properties */
 
 body {
