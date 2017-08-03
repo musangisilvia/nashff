@@ -507,6 +507,34 @@ mark, rp, rt, ruby, summary, time {
     color: black;
 }
 
+.price {
+    position: relative;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.price li {
+    color: black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.price span {
+    float: right;
+    color: black;
+}
+
+.price a {
+    color: black;
+    text-decoration: none;
+    float: left;
+}
+
+.price a:hover {
+    color: #fff
+}
+
 
 /*End of page 4*/
 
@@ -691,28 +719,6 @@ p {
 }
 
 .list1 a:hover {
-    color: #fff
-}
-
-.price li {
-    width: 100%;
-    overflow: hidden;
-    background: url(../images/bg_price.gif) 0 -5px repeat-x
-}
-
-.price span {
-    float: right;
-    background: #1c160d
-}
-
-.price a {
-    color: #a09d99;
-    text-decoration: none;
-    float: left;
-    background: #1c160d
-}
-
-.price a:hover {
     color: #fff
 }
 
